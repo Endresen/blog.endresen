@@ -1,0 +1,55 @@
+baseURL = "https://blog.endresen.cloud/"
+title = "Endresen Cloud"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  env = "production"
+  title = "Endresen Cloud"
+  description = "Azure, Microsoft Fabric, and AI insights"
+  author = "Kjartan"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+
+[params.homeInfoParams]
+  Title = "Endresen Cloud"
+  Content = "Azure, Microsoft Fabric, and AI — for IT professionals and developers."
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://linkedin.com"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30
